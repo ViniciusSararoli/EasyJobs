@@ -1,0 +1,324 @@
+<title>Dados da Empresa</title>
+<script src="../../Downloads/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<style>
+
+.faixa{
+	height:60px;/*altura*/
+	width:100%;/*largura*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:#FFA500;
+}
+
+.logo{
+	height:100px;/*altura*/
+	width:480px;/*largura*/
+	position:absolute;
+	top:0px;
+	left:50px;
+	
+}
+.imgproduto{
+    height:100px;/*altura*/
+	width:380px;/*largura*/
+    margin-right: auto;
+    margin-left: auto;
+	
+}
+.Caixa{
+	height:460px;/*altura*/
+	width:800px;/*largura*/
+	border-radius:8px;
+	background-color:#DCDCDC;
+	position:absolute;
+	top:150px;
+	left:60px;
+	box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+	background-image:url(../../Downloads/20180108-estagio.jpg);
+}
+
+.Caixa2{
+	height:460px;/*altura*/
+	width:400px;/*largura*/
+	border-radius:8px;
+	background-color:#DCDCDC;
+	position:absolute;
+	top:150px;
+	left:880px;
+	box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+	background-image:url(../../Downloads/20180108-estagio.jpg);
+}
+
+
+.Interesse{
+	font-family: 'Lobster', cursive;
+    color:black;
+    font-size:15px;
+	height:30px; /*altura*/
+	width:150px; /*largutra*/
+	position:relative;
+	background-color:#8F9094;
+	cursor:pointer;
+	left: 25px;
+	top: 8px;
+	border-radius:15px;
+
+
+}
+
+.formatar {
+	height:420px; /*altura*/
+	width: 300px; /*largutra*/
+	margin: 10px 0px;
+	position: absolute;
+	left: 30px;
+
+}
+
+
+.formatar input {
+	height: 25px; /*altura*/
+	width:  300px; /*largutra*/
+	margin: 15px;
+
+}
+
+.formatar2 {
+	height: 420px; /*altura*/
+	width:  300px; /*largutra*/
+	margin: 10px;
+	position: absolute;
+	left: 390px;
+
+}
+
+.formatar2 input {
+	height: 25px; /*altura*/
+	width:  300px; /*largutra*/
+	margin: 15px;
+
+}
+
+.checkbox{
+	height: 100px; /*altura*/
+	width:  300px; /*largutra*/
+	margin: 10px;
+	position: absolute;
+	left: 0px;
+	top:  210px;
+
+}
+
+.checkbox input {
+	height: 25px; /*altura*/
+	width:  70px; /*largutra*/
+	margin: 15px;
+
+}
+
+.letra{
+	font: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+
+}
+
+select.basic {
+    height: 30px; /*altura*/
+	width: 300px; /*largutra*/
+	margin:20px;
+}
+select.simple {
+  background: #f5f5f5;
+  border: 0;
+}
+
+.btnH{
+	height:80px; /*altura*/
+	width:135px; /*largutra*/
+	position:absolute;
+	top:320px;
+	left:5px;
+	cursor:pointer;
+	background-color:#FCFCFE;
+	opacity:0.5;
+	transition:all 0.3s ease;
+	border-radius:5px;
+		
+}
+ .btnH:hover{
+	opacity:1;
+ }
+ 
+ .btnE{
+	height:80px; /*altura*/
+	width:132px; /*largutra*/
+	position:absolute;
+	top:320px;
+	left:160px;
+	cursor:pointer;
+	background-color:#FCFCFE;
+	opacity:0.5;
+	transition:all 0.3s ease;
+	border-radius:5px;
+}
+ .btnE:hover{
+	opacity:1;
+	background-color:#0B243B;
+ }
+ 
+ 
+.FL{
+	position:absolute;
+	width:100%;
+	top:30px;
+	text-align: center;
+    text-decoration: none;
+	color:rgba(0,0,0,1);
+	font:Tahoma, Geneva, sans-serif;
+
+		}
+
+
+
+</style>
+
+<body>
+
+<div class ="faixa">
+	<div id="logo">
+			<a href="Home page.html"><img  src="imgs/logo.png" width="180" align="left" ></a>
+		</div>
+		
+    </div>
+	
+
+
+<div class ="fundo">
+
+ <div class="Caixa">
+ 	
+ 		<div class="formatar">
+
+			<div class="letra">Nome Fantasia</div> 
+			<input type="text" placeholder="Ex: Raquel e Yuri Telecom ME" name="" value="">
+	
+			<div class="letra">E-mail</div> 
+			<input type="text" placeholder="Ex: almoxarifado@raqueleyuritelecomme.com.br" name="" value="">
+            
+            <div class="letra">Confrimar E-mail</div> 
+			<input type="text" placeholder="almoxarifado@raqueleyuritelecomme.com.br" name="" value="">
+            
+            <div class="letra">Senha</div> 
+			<input type="password" placeholder="" name="" value="">
+            
+            <div class="letra">Confirmar Senha</div> 
+			<input type="password" placeholder="" name="" value="">
+            
+            <div class="letra">CNPJ</div> 
+			<input type="text" placeholder="Ex: 33.971.720/0001-53" name="" value="">
+            
+    	</div>
+            
+        <div class="formatar2">
+        
+        	
+        		
+            <div class="letra">Telefone 1</div> 
+			<input type="text" placeholder="Ex: (11) 3913-0345" name="" value="">
+                
+            <div class="letra">Telefone 2</div> 
+		  <input type="text" placeholder="Preencher caso exista" name="" value="">
+            
+            <div class="checkbox">
+                  <div class="letra">Sexo: </div> 
+                            Fem.
+                            <input  type="radio" name="sexo" value="F">
+                            Masc.
+                            <input  type="radio" name="sexo" value="M">
+            </div>
+            
+            <div class="letra">Url da empresa</div> 
+			<input type="text" placeholder="Ex: www.raqueleyuritelecomme.com.br" name="" value="">
+        
+          <div class ="btnH">
+	  <a href="Home page.html" class="FL">Home</a>
+      </div>
+      
+       	  <div class ="btnE">
+	  <a href="Vagas da empresa.html" class="FL">Cadastrar</a>
+      </div>
+        
+        </div>
+        
+   </div>
+   
+   <div class="Caixa2">
+   
+   		<div class="formatar">
+   
+   			<div class="letra">CEP</div> 
+			<input type="text" placeholder="02721-040" name="" value="">
+	
+			<div class="letra">Rua Com Numero</div> 
+			<input type="text" placeholder="Travessa São Francisco N°865" name="" value="">
+            
+            <div class="letra">Complemento</div> 
+			<input type="text" placeholder="Preencher caso exista" name="" value="">
+            
+            <div class="letra">Bairro</div> 
+			<input type="text" placeholder="Limão" name="" value="">
+            
+            <div class="letra">Cidade</div> 
+			<input type="text" placeholder="São Paulo" name="" value="">
+            
+            <div class="letra">UF</div> 
+			<select class="simple basic">
+
+    			<option value=""  	selected="selected" >	  </option>
+    			<option value="UF" 	>Acre					</option>
+    			<option value="UF"	>Alagoas					</option>
+    			<option value="UF" 	>Amapá 					</option>
+    			<option value="UF" 	>Amazonas  				</option>
+    			<option value="UF" 	>Bahia 					</option>
+    			<option value="UF" 	>Ceará  					</option>
+    			<option value="UF" 	>Distrito Federal		</option>
+    			<option value="UF" 	>Espírito Santo 			</option>
+    			<option value="UF" 	>Goiás					</option>
+    			<option value="UF" 	>Maranhão 				</option>
+    			<option value="UF" 	>Mato Grosso				</option>
+    			<option value="UF" 	>Mato Grosso do Sul		</option>
+    			<option value="UF" 	>Minas Gerais 			</option>
+    			<option value="UF" 	>Pará 					</option>
+    			<option value="UF" 	>Paraíba 				</option>
+    			<option value="UF" 	>Paraná					</option>
+    			<option value="UF" 	>Pernambuco 				</option>
+    			<option value="UF" 	>Piauí					</option>
+    			<option value="UF" 	>Rio de Janeiro			</option>
+    			<option value="UF" 	>Rio Grande do Norte 	</option>
+    			<option value="UF" 	>Rio Grande do Sul 		</option>
+    			<option value="UF" 	>Rondônia				</option>
+    			<option value="UF" 	>Roraima					</option>
+    			<option value="UF" 	>Santa Catarina			</option>
+    			<option value="UF" 	>São Paulo				</option>
+    			<option value="UF" 	>Sergipe					</option>
+    			<option value="UF" 	>Tocantins				</option>
+
+ 			 </select>	
+   		</div>
+   
+   
+   </div>
+        
+     
+
+
+ </div>
+
+
+</div>
+
+
+</body>
+</html>

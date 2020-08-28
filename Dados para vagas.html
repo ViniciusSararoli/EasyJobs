@@ -1,0 +1,284 @@
+<html>
+	<head>
+		<title>Dados das vagas - EasyJobs</title>
+
+		<style>
+
+			.estilop {
+			border: 1px ; 
+			margin : 0px auto;
+			}
+
+			.left{
+				margin-left: 40px;
+				margin-top: 70px;
+			}
+
+			.right{
+				float: right;
+				margin-right: 920px;
+				margin-top: -35px;
+			}
+
+			#bt{
+
+				background-color: #D3D3D3;
+				border: 0px;
+				float: right;
+				margin-right: 20px;
+				margin-top: 20px;
+			}
+
+			#cabecalho {
+				
+				background-color:#ffa500 ;
+				height:60px;
+				text-align:right;
+				font-family:tahoma;
+				font-size:30px;
+				margin-top: -10px;
+				margin-left: -7px;
+				width:1350px;
+				}
+
+			#principal{
+			background-color: #FFFFFF;
+			width: 100%;
+			height: 100%;
+			margin : 0px auto;
+
+			}
+
+			
+
+			#select1{
+				width: 228px;
+			}
+
+			#select2{
+				float: left;
+				margin-left: 180px;
+				margin-top: -38px;
+			}
+
+			#select3{
+				 float: right;
+				 margin-right: 940px;
+				 margin-top: -39px;
+				 width: 80px;
+			}
+			#select4{
+				float: left;
+				margin-left: 300px;
+				margin-top: -38px;
+				width: 120px;
+			}
+
+			#textarea{
+				width: 228px;
+				
+			}
+
+			#textarea1{
+				width: 228px;
+				height: 45px;
+				
+			}
+
+			#textarea2{
+				width: 400px;
+				height: 200px;
+				float: left;
+				margin-left: 800px;
+				margin-top: -560px;
+				
+			}
+
+			#textarea3{
+				width: 400px;
+				height: 200px;
+				float: left;
+				margin-left: 800px;
+				margin-top: -300px;
+				
+			}
+
+			#periodo{
+				 float: right;
+				 margin-right: 1030px;
+				 margin-top: -38px;
+				
+			}
+
+			#atividade{
+				 float: right;
+				 margin-right: 550px;
+				 margin-top: -560px;
+				
+			}
+
+			#requisitos{
+				 float: right;
+				 margin-right: 550px;
+				 margin-top: -300px;
+				
+			}
+
+			input[type=button] {
+				background-color: transparent;
+				color: black;
+				border: 1px solid;
+				margin-top: 15px;
+				margin-right: 15px;
+				font-size: 18px;
+
+			}
+
+			.button1 {
+				background-color: #0B243B;
+				color: white;
+				border: 1px solid;
+				text-align: center;
+				margin-top: 15px;
+				float: right;
+				margin-right: 250px;
+				font-size: 25px;
+				width: 100px;
+
+			}
+			#faixa input {
+					color:#0B243B;
+					font-size:18px;
+					border:solid 1px #0B243B;
+					background-color:none;
+					background:none;
+					margin:15px;
+					cursor:pointer;
+					}
+					#atalho {
+				width:100%;
+				height:90px;
+				background-color:#FFFFFF;
+				float:left;
+					}
+					
+			
+			
+			#at li {
+				float:left; 
+				margin-left:250px;
+				text-align:center;
+				list-style:none;
+				left:5px;
+				font-family:tharoma;
+				
+				}
+				
+			#at a {
+				text-decoration:none;
+				color:#0B243B;				
+				}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="estilop" id="cabecalho">
+			<div id="logo">
+			<a href="Home page.html"><img  src="imgs/logo.png" width="180" align="left"></a>
+		</div>
+		<a href="Home page.html"><input class="but" type= "button" name="sair" value="Sair"></a>	
+		</div>
+		<div id="atalho">	
+				
+				<ul id="at">
+					<li><a target="_blanck" href="Painel de vagas.html">Vagas</a></li>
+					<li><a target="_blanck" href="Pesquisa de empresas.html">Empresas</a></li>
+					<li><a target="_blanck" href="Ajuda.html">Ajuda</a></li>
+				</ul>
+			</div>
+
+		<div class="estilop" id="principal">
+
+			<h4 class="left">Área destinada:</h4>
+
+			<select class="right" id="select">
+			  <option >Área            </option>
+			  <option >Informática, TI, Telecomunicações</option>
+			  <option >Construção, Manutenção</option>
+			  <option >Alimentação / Gastronomia</option>
+			  <option >Saúde</option>
+			  <option >Logística</option>
+			  <option >Recursos Humanos</option>
+			  <option >Educação, Ensino, Idiomas</option>
+			  <option >Outros...</option>
+			</select>
+
+			<h4 class="left">Cargo/Hierarquia:</h4>
+
+			<select class="right" id="select1">
+			  <option >Cargo</option>
+			  <option >Estagiário</option>
+			  <option >Efetivo</option>
+			  <option >Técnico</option>
+			  <option >Gerente</option>
+			  <option >Encarregado</option>
+			  <option >Funcionário</option>
+			  <option >Temporário</option>
+			  <option >Outros...</option>
+			</select>
+
+			<h4 class="left">Salário:</h4>
+			<textarea class="right" id="textarea"></textarea>
+
+			<h4 class="left">Benefícios:</h4>
+			<textarea class="right" id="textarea1"></textarea>
+
+			<h4 class="left">Nome da empresa:</h4>
+			<textarea class="right" id="textarea"></textarea>
+
+			<h4 class="left">Local de Atuação:</h4>
+			
+			<select  id="select2">
+			  <option >Zona</option>
+			  <option >Leste</option>
+			  <option >Oeste</option>
+			  <option >Norte</option>
+			  <option >Sul</option>
+			</select>
+
+			<h4 id="periodo">Período:</h4>
+			
+			<select  id="select3">
+			  <option >Matutino</option>
+			  <option >Vespertino</option>
+			  <option >Noturno</option>
+			</select>
+
+			<h4 class="left">Tempo de disponibilidade da vaga:</h4>
+
+			<select class="right" id="select4">
+			  <option >Tempo</option>
+			  <option >1 semana</option>
+			  <option >2 semana</option>
+			  <option >3 semana</option>
+			  <option >1 mês</option>
+			  <option >2 meses</option>
+			  <option >3 meses</option>
+			  <option >4 meses</option>
+			  <option >Outros...</option>
+			</select>
+
+			<h4 id="atividade">Atividades do cargo:</h4>
+			<textarea id="textarea2">...</textarea>
+
+			<h4 id="requisitos">Requisitos da vaga:</h4>
+			<textarea id="textarea3">...</textarea>
+
+			<button class="button1" name="enviar" value="Enviar">Enviar</button> 
+
+		</div>
+
+	</body>
+</html>

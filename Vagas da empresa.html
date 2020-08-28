@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Layout WEB com CSS - Parte 2</title>
+		
+		<style>
+		body {
+				background:white;
+				background-size : 100% ;
+				margin:0px;
+			}
+			
+		#faixa {
+				background:url (imgs/ej.png) left;
+				background-color:#ffa500 ;
+				height:60px;
+				text-align:right;
+				font-family:tahoma;
+				font-size:30px;
+			
+				width:100%;
+				}
+		
+			#faixa input {color:#0B243B;
+					font-size:18px;
+					border:solid 1px #0B243B;
+					background-color:none;
+					background:none;
+					margin:15px;
+					cursor:pointer;
+					}
+					
+			#atalho {
+				width:100%;
+				height:90px;
+				background-color:white;
+				float:left;
+					}
+					
+			at {
+				}
+			
+			#at li {
+				float:left; 
+				margin-left:250px;
+				text-align:center;
+				list-style:none;
+				left:5px;
+				}
+				
+			#at a {
+				text-decoration:none;
+				color:#0B243B;
+				}
+				
+					
+			#principal input {
+					width:200px;
+					height:25px;
+					font-size:15px;
+					border-size:1px silver;
+					background-color:#0B243B;
+					color:white;
+					position:relative;
+					margin:10px;
+					left:750px;
+					}
+			
+			#principal {
+				width:1024px;
+				height:700px;
+				background-color:#dcdcdc;
+				margin:150px;
+				overflow-y:scroll;
+			}
+			
+			#principal h3{
+				font-family:tahoma;
+				margin-top:50px;
+						}
+						
+			#menu {
+				list-style:none;
+				padding:0px;
+			}
+			
+				
+				
+				
+				
+				
+			
+			.footer {
+					position: relative; 
+					top:60px;
+					left:0px;
+					background-color:#ffa500;
+					width:100%;
+					height:325px;
+					text-align:right;
+					font-family:tahoma;
+					font-size:30px;
+					
+								}
+						
+				
+		</style>
+		
+	</head>
+	<body>
+	
+		<div id="faixa">
+		<div>
+			<img src="imgs/logo.png" align="left" width="180" onClick="window.open('Home page.html')">
+		</div>
+		<a href="Home page.html"><input class="but" type= "button" name="Sair" value="Sair"></a>
+		</div>
+		
+			<div id="atalho">	
+				
+				<ul id="at">
+					<li><a target="_blanck" href="Painel de vagas.html">Vagas</a></li>
+					<li><a target="_blanck" href="Pesquisa de empresas.html">Empresas</a></li>
+					
+					<li><a target="_blanck" href="Ajuda.html">Ajuda</a></li>
+				</ul>
+			</div>
+		
+		<div id="principal">
+		<a href="Dados para vagas.html"><input class="add" type= "button" name="addvaga" value="Adicionar vagas"></a>
+			<h3 align="center"Não possui nenhuma vaga cadastrada</h3>
+		</div>
+		
+		
+		<footer class="footer"></footer>
+		
+		
+	</body>
+</html>		
+				
+				
+		
