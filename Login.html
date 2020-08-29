@@ -43,6 +43,7 @@
 							padding:13px 3;
 							color:black;
 							position:relative;top:-10px;left:21px;
+							z-index: 1;
 							}
 							
 	
@@ -124,13 +125,14 @@
 						background: #f3f8fd;
 						position: relative;
 						top: 100;
-						left: center;
-						width: 400;
+						left: -90;
+						width: 427;
 						height: 200;
 						float: left;
-						border: solid 2px;
+						border: solid 1px;
 						text-align: left;
-						display: none;
+						display:none;
+						z-index:2;
 					
 					}
 					.recuperar h1{
@@ -151,16 +153,18 @@
 						width:300;
 						position: relative;
 						left: 40;
+						color: #000000;
 
 					}
 					.recuperar button{
-						background: blue;
+						background: #0B243B;
 						border: none;
 						float: left;
 						width: 200;
-						height: 20;
-						margin: 5;
+						height: 25;
+						margin: 10;
 						margin-left: 100;
+						color: #f3f8fd;
 					}
 				
 				
@@ -171,36 +175,32 @@
 		<div class="logo">
 			<a href="Home page.html"><img src="imgs/logo.png" align="center"></a>
 		<div>
-		
-		<div class="login-box">
-			<div class="recuperar">
+			<div class="recuperar" id="recuperar">
 				<h1>ESQUECI MINHA SENHA</h1>
 <h3>Para redefinir a sua senha, informe seu  e-mail abaixo e clique em Continuar.</h3>
 				<input type="email" name="" id="">
 				<button>continuar</button>
 			</div>
+		<div class="login-box">
 		<h1>Login</h1>
-		
 		<div class="textbox">
 			<h2>Usuario/Login</h2>
 			<input type="text" placeholder="" name="Usuario/Login" value="" maxlength="50">
 		</div>
-		
 		<div class="textbox">
 			<h2>Senha</h2>
 			<input type="password" placeholder="" name="Senha" value="" maxlength="10">
-			
 		</div>
-	
 		<input class="bnt" type="button" nome="entrar" value="Entrar" onclick="window.location='Home page.html';">
-		
-			<button class="esqueci" id="esqueci">Esqueci minha senha</button>
-		
+			<button class="esqueci" id="esqueci" name="esqueci">Esqueci minha senha</button>
 			<input class="cdt" type="button" nome="cadastro" value="CADASTRE-SE"
 			onclick="window.location='Dados pessoais.html';">
-		
-		
+	
 		<script>
+			var esqueci = document.querySelector('button[name=esqueci]')
+			esqueci.onclick = function abrir() {
+				esqueci = document.getElementById('recuperar').style.display = 'block';
+    }
 
 		</script>
 	
