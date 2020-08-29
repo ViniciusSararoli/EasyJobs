@@ -40,41 +40,56 @@
 							float:left;
 							font-size:40px;
 							margin-bottom:20px;
-							padding:13px 3;
+							padding:10px;
 							color:black;
-							position:relative;top:-10px;left:21px;
+							position: absolute;
+							left:20px;
+							top: 10;
 							z-index: 1;
 							}
-							
-	
-							
-				.textbox {
-						width:97%;
-						overflow:hidden;
-						font-size:15px;
-						padding:8px 3;
-						margin:2px 3;
-						}
-						
-				.textbox input {
-								width:330px;
-								height:25px;
-								border:solid 1px #dcdcdc;
-								outline:none;
-								background:none;
-								margin:1 10px;
-								position: relative; top:px;left:18px;
-								}
-								
-				.textbox h2{
+					.Usuario{
 							width:300px;
 							float:left;
 							font-size:15px;
 							margin-bottom:5px;
 							padding:8px 3;
 							color:black;
-							position: relative; top:px;left:21px;
+							position: absolute; 
+							top:150;
+							left:25px;
 							}
+						.login {
+								width:330px;
+								height:25px;
+								border:solid 1px #dcdcdc;
+								outline:none;
+								background:none;
+								margin: 10px;
+								position: absolute; top:180;left:20px;
+								}
+
+						.Password{
+							width:300px;
+							float:left;
+							font-size:15px;
+							margin-bottom:5px;
+							padding:8px 3;
+							color:black;
+							position: absolute;top:230;
+							left:25px;	
+							}
+				.senha {
+								width:330px;
+								height:25px;
+								border:solid 1px #dcdcdc;
+								outline:none;
+								background:none;
+								margin:1 10px;
+								position: absolute; top:270;
+								left:20px;
+								}
+								
+				
 				.bnt {
 					width:330px;
 					height:40px;
@@ -85,15 +100,15 @@
 					padding:5px 3;
 					background:#0B243B;
 					font-size:15px;
-					/* line-height:2.0; */
 					cursor:pointer;
 					border:1px solid #dcdcdc;
-					position: relative; top:15px;left:23px;
+					position: absolute; top:75%;
+					left:20px;
 					}
 					
 					.esqueci {
 						color:#ffa500;
-						position: relative; top:70px;left:115px;
+						position: absolute; top:430;left:108px;
 						font-size:18px;
 						border: none;
 						background: none;
@@ -111,7 +126,7 @@
 						background: #ffffff;
 						border: solid #dcdcdc;
 						margin:5px;
-						position: relative; top:90px;left:30px;
+						position: relative; top:20px;left:-55;
 						font-size:12px;
 						font-weight:bold;
 						cursor:pointer;
@@ -123,9 +138,10 @@
 
 					.recuperar{
 						background: #f3f8fd;
-						position: relative;
-						top: 100;
+						position: absolute;
+						top: 150;
 						left: -90;
+						
 						width: 427;
 						height: 200;
 						float: left;
@@ -139,7 +155,7 @@
 						font-size: 20;
 						color: rgb(0, 0, 0);
 						float: left;
-						padding-left: 50;					
+						padding-left: 50;			
 					}
 
 					.recuperar h3{
@@ -150,21 +166,32 @@
 						
 					}
 					.recuperar input{
-						width:300;
+						width:350;
+						height: 25;
 						position: relative;
 						left: 40;
 						color: #000000;
 
 					}
-					.recuperar button{
+					.continuar{
 						background: #0B243B;
 						border: none;
 						float: left;
 						width: 200;
-						height: 25;
+						height: 27;
 						margin: 10;
 						margin-left: 100;
 						color: #f3f8fd;
+						position: relative; top:; left: 15;
+					}
+					.cancelar {
+						border: none;
+						background: none;
+						float: left;
+						width: 20;
+						height: 20;
+						position: relative;top: 12; left: 108;
+						font-size: 18;
 					}
 				
 				
@@ -173,35 +200,49 @@
 	<body>
 			
 		<div class="logo">
-			<a href="Home page.html"><img src="imgs/logo.png" align="center"></a>
+			<a href="D:\Projetos\EasyJobs\Home\Index.html">
+			<img src="D:\Projetos\EasyJobs\imgs\logo.png"></a>
 		<div>
+
 			<div class="recuperar" id="recuperar">
 				<h1>ESQUECI MINHA SENHA</h1>
+				<button class="cancelar" name="cancelar">X</button>
 <h3>Para redefinir a sua senha, informe seu  e-mail abaixo e clique em Continuar.</h3>
 				<input type="email" name="" id="">
-				<button>continuar</button>
+				<button class="continuar">continuar</button>
 			</div>
+
 		<div class="login-box">
-		<h1>Login</h1>
-		<div class="textbox">
-			<h2>Usuario/Login</h2>
-			<input type="text" placeholder="" name="Usuario/Login" value="" maxlength="50">
-		</div>
-		<div class="textbox">
-			<h2>Senha</h2>
-			<input type="password" placeholder="" name="Senha" value="" maxlength="10">
-		</div>
-		<input class="bnt" type="button" nome="entrar" value="Entrar" onclick="window.location='Home page.html';">
+			<h1>Login</h1>
+
+			<h2 class="Usuario">Usuario/Login</h2>
+			<input class="login" type="text" placeholder="" name="Login" value="" maxlength="50">
+			
+			<h2 class="Password">Senha</h2>
+			<input class="senha" type="password" placeholder="" name="Senha" value="" maxlength="10">
+
+		<input class="bnt" type="button" nome="entrar" value="Entrar" 
+		onclick="window.location = 'D:/Projetos/EasyJobs/Home/Index.html';">
+
 			<button class="esqueci" id="esqueci" name="esqueci">Esqueci minha senha</button>
+		</div>	
+
 			<input class="cdt" type="button" nome="cadastro" value="CADASTRE-SE"
-			onclick="window.location='Dados pessoais.html';">
+			onclick="window.location='D:/Projetos/EasyJobs/Cadastro/Index.html';">
 	
 		<script>
-			var esqueci = document.querySelector('button[name=esqueci]')
-			esqueci.onclick = function abrir() {
+			var esqueci = document.querySelector('button[name=esqueci]');
+					esqueci.onclick = function abrir() {
 				esqueci = document.getElementById('recuperar').style.display = 'block';
     }
-
+		var cancelar = document.querySelector('button.cancelar');
+		cancelar.onclick = function(){
+				cancelar = document.getElementById('recuperar').style.display = 'none';
+		}
+		var continuar = document.querySelector('button.continuar');
+			continuar.onclick = function(){
+				alert('E-mail enviado com sucesso!');
+			}
 		</script>
 	
 	</body>
