@@ -1,207 +1,15 @@
 <html>
 	<head>
 		<title>Login</title>
-			<style>
-				body {
-					 margin:0px;
-					 padding:0px;
-					 font-family:sans-serif;
-				
-					 background-size:cover;
-					 background-color:#ffa500;
-					}
-					
-					
-				.logo {
-					width:250px;
-					float:height;
-					position:relative;
-					left:40%;
-					
-					margin-left:20px;
-					
-					
-						}
-					
-					
-				.login-box {
-				
-						  width:400px;
-						  height:480px;
-						  position:relative;
-						  top:20%;
-						  left:-30%;
-						 transform: tranlate(-50%,-50%); 
-						  Color: #ffffff;
-						  background-color:#ffffff;
-							}
-						
-				.login-box h1{
-							float:left;
-							font-size:40px;
-							margin-bottom:20px;
-							padding:10px;
-							color:black;
-							position: absolute;
-							left:20px;
-							top: 10;
-							z-index: 1;
-							}
-					.Usuario{
-							width:300px;
-							float:left;
-							font-size:15px;
-							margin-bottom:5px;
-							padding:8px 3;
-							color:black;
-							position: absolute; 
-							top:150;
-							left:25px;
-							}
-						.login {
-								width:330px;
-								height:25px;
-								border:solid 1px #dcdcdc;
-								outline:none;
-								background:none;
-								margin: 10px;
-								position: absolute; top:180;left:20px;
-								}
-
-						.Password{
-							width:300px;
-							float:left;
-							font-size:15px;
-							margin-bottom:5px;
-							padding:8px 3;
-							color:black;
-							position: absolute;top:230;
-							left:25px;	
-							}
-				.senha {
-								width:330px;
-								height:25px;
-								border:solid 1px #dcdcdc;
-								outline:none;
-								background:none;
-								margin:1 10px;
-								position: absolute; top:270;
-								left:20px;
-								}
-								
-				
-				.bnt {
-					width:330px;
-					height:40px;
-					float:left;
-					color: #ffffff;
-					margin-bottom:5px;
-					margin:10px;
-					padding:5px 3;
-					background:#0B243B;
-					font-size:15px;
-					cursor:pointer;
-					border:1px solid #dcdcdc;
-					position: absolute; top:75%;
-					left:20px;
-					}
-					
-					.esqueci {
-						color:#ffa500;
-						position: absolute; top:430;left:108px;
-						font-size:18px;
-						border: none;
-						background: none;
-						}
-					.esqueci:hover{
-						color: blue;
-						border: none;
-					}
-					
-						
-					.cdt {
-						width:330px;
-						height:30px;
-						color:#0B243B;
-						background: #ffffff;
-						border: solid #dcdcdc;
-						margin:5px;
-						position: relative; top:20px;left:-55;
-						font-size:12px;
-						font-weight:bold;
-						cursor:pointer;
-						}
-					.cdt:hover{
-						color: #ffa500;
-						border: none;
-					}
-
-					.recuperar{
-						background: #f3f8fd;
-						position: absolute;
-						top: 150;
-						left: -90;
-						
-						width: 427;
-						height: 200;
-						float: left;
-						border: solid 1px;
-						text-align: left;
-						display:none;
-						z-index:2;
-					
-					}
-					.recuperar h1{
-						font-size: 20;
-						color: rgb(0, 0, 0);
-						float: left;
-						padding-left: 50;			
-					}
-
-					.recuperar h3{
-						font-size: 15px;
-						color: crimson;
-						padding-left: 10;
-						float: left;
-						
-					}
-					.recuperar input{
-						width:350;
-						height: 25;
-						position: relative;
-						left: 40;
-						color: #000000;
-
-					}
-					.continuar{
-						background: #0B243B;
-						border: none;
-						float: left;
-						width: 200;
-						height: 27;
-						margin: 10;
-						margin-left: 100;
-						color: #f3f8fd;
-						position: relative; top:; left: 15;
-					}
-					.cancelar {
-						border: none;
-						background: none;
-						float: left;
-						width: 20;
-						height: 20;
-						position: relative;top: 12; left: 108;
-						font-size: 18;
-					}
-				
-				
-			</style>	
+		<link	rel="stylesheet"
+		type="text/css"
+		href="Style.css">	
 	</head>
 	<body>
 			
 		<div class="logo">
-			<a href="D:\Projetos\EasyJobs\Home\Index.html">
-			<img src="D:\Projetos\EasyJobs\imgs\logo.png"></a>
+			<a href="D:\EasyJobs\Home\Index.html">
+			<img src="D:\EasyJobs\imgs\logo.png"></a>
 		<div>
 
 			<div class="recuperar" id="recuperar">
@@ -230,20 +38,7 @@
 			<input class="cdt" type="button" nome="cadastro" value="CADASTRE-SE"
 			onclick="window.location='D:/Projetos/EasyJobs/Cadastro/Index.html';">
 	
-		<script>
-			var esqueci = document.querySelector('button[name=esqueci]');
-					esqueci.onclick = function abrir() {
-				esqueci = document.getElementById('recuperar').style.display = 'block';
-    }
-		var cancelar = document.querySelector('button.cancelar');
-		cancelar.onclick = function(){
-				cancelar = document.getElementById('recuperar').style.display = 'none';
-		}
-		var continuar = document.querySelector('button.continuar');
-			continuar.onclick = function(){
-				alert('E-mail enviado com sucesso!');
-			}
-		</script>
+		<script src="Script.js"></script>
 	
 	</body>
 </html>
