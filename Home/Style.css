@@ -1,0 +1,233 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.faixa{
+	height:60px;/*altura*/
+	width:100%;/*largura*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color:#FFA500;
+}
+
+.logo{
+	height:100px;/*altura*/
+	width:480px;/*largura*/
+	position:absolute;
+	top:0px;
+	left:50px;
+	
+}
+.imgproduto{
+    height:100px;/*altura*/
+	width:380px;/*largura*/
+    margin-right: auto;
+    margin-left: auto;
+	
+}
+
+
+.formatar{
+	height:55px;/*altura*/
+	width:1000px;/*largura*/
+	position:absolute;
+	top:120px;
+	left:40px;
+	float: left;
+
+}
+
+		.categoria{
+			height:55px;/*altura*/
+			width:120px;/*largura*/
+			border-radius:8px;
+			background-color:#0B243B;
+			box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+			float: left;
+			margin-left:20px;
+			
+		}
+		.categoria:hover{
+			background-color:#DC8E35;
+			
+		}
+		
+		.categoria2{
+			height:55px;/*altura*/
+			width:120px;/*largura*/
+			border-radius:8px;
+			background-color:#0B243B;
+			box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+			float: left;
+			margin-left:20px;
+		}
+		.categoria2:hover{
+			background-color:#DC1A1A;
+		}
+			.categoria3{
+				height:55px;/*altura*/
+				width:120px;/*largura*/
+				border-radius:8px;
+				background-color:#0B243B;
+				box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+				float: left;
+				margin-left:20px;
+		}
+		.categoria3:hover{
+				background-color:#BD24CC;
+		}
+		
+		.categoria4{
+			height:55px;/*altura*/
+			width:120px;/*largura*/
+			border-radius:8px;
+			background-color:#0B243B;
+			box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+			float: left;
+			margin-left:20px;
+		}
+		.categoria4:hover{
+			background-color:#48AC0B;
+		}
+		
+		
+		.categoria5{
+			height:55px;/*altura*/
+			width:120px;/*largura*/
+			border-radius:8px;
+			background-color:#0B243B;
+			box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+			float: left;
+			margin-left:20px;
+		}
+		.categoria5:hover{
+			background-color:#EBDA23;
+		}
+		
+		
+		.categoria6{
+			height:55px;/*altura*/
+			width:120px;/*largura*/
+			border-radius:8px;
+			background-color:#0B243B;
+			box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+			float: left;
+			margin-left:20px;
+		}
+		.categoria6:hover{
+			background-color:#14C3C0;
+		}
+		
+		
+		.categoria7{
+			height:55px;/*altura*/
+			width:120px;/*largura*/
+			border-radius:8px;
+			background-color:#0B243B;
+			box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+			float: left;
+			margin-left:20px;
+		}
+		.categoria7:hover{
+			background-color:#625EA0;
+		}
+		
+
+
+.Equipe{
+	padding:0;
+	height:430;/*altura*/
+	width:1010px;/*largura*/
+	border-radius:8px;
+	position:absolute;
+	top:190px;
+	left:40px;
+	box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+	background-image:url(D:/EasyJobs/imgs/Painel.gif);
+	float: left;
+}
+
+.formatar2{
+	height:0;/*altura*/
+	width:200px;/*largura*/
+  position:absolute;
+	top:95px;
+	left:1100px;
+	float:left;
+	
+
+
+}
+
+.button2{
+	border: none;
+  color:#FFFFFF;
+	text-decoration: none;
+	text-align:center;
+  display: inline-block;
+  font-size: center 10px;
+	margin:5px;
+	width:110px;/*largura*/
+	margin-top: -10px;	
+	float: left;
+}
+
+.vagaR{
+	height:105px;/*altura*/
+	width:200px;/*largura*/
+	background-color:#FCFCFE;
+	box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+	border-style: solid;
+  border-color: black;
+border-radius:8px;
+	margin:20px 0px 0px;
+
+}
+
+.Titulo{
+	height:30px;/*altura*/
+	width:200px;/*largura*/
+	font-size:20px;
+	position:relative;
+	top:-15px;
+	left:0px;
+	font-family:Impact;
+	text-align-last:center;
+}
+.Salario{
+	height:70px;/*altura*/
+	width:200px;/*largura*/
+	font-size:20px;
+	position:relative;
+	top:-30px;
+	left:0px;
+	font-family:"Arial Narrow";
+	text-align-last:center;
+}
+
+.Interesse{
+	font-family:'tahoma';
+  color:black;
+  font-size:15px;
+	height:30px; /*altura*/
+	width:150px; /*largutra*/
+	position:relative;
+	background-color:#8F9094;
+	cursor:pointer;
+	left:25px;
+	top:-70px;
+	border-radius:15px;
+}
+
+.footer {
+	float: left;
+	padding: 0;
+	margin: 0;
+	position:absolute; 
+	top:600px;
+	left:-1100;
+	background-color:#ffa500;
+	width:1349;
+	height:200px;
+				}

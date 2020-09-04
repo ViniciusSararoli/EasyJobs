@@ -2,7 +2,6 @@ body {
   margin:0px;
   padding:0px;
   font-family:sans-serif;
-
   background-size:cover;
   background-color:#ffa500;
  }
@@ -13,11 +12,8 @@ body {
  float:height;
  position:relative;
  left:40%;
- 
  margin-left:20px;
- 
- 
-   }
+    }
  
  
 .login-box {

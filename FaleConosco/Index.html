@@ -1,163 +1,26 @@
 <html>
 
 	<head>
+
 		<title>Duvidas - Fale Conosco</title>
-		
-		<style>
-			body {
-				background:white;
-				background-size : 100% ;
-				font-family:tahoma;
-				margin:0px;
-			}
-			
-		#faixa {
-				background-color:#ffa500;
-				height:60px;
-				text-align:right;
-				font-family:tahoma;
-				font-size:30px;
-				
-				}
-		
-			#faixa input {color:#0B243B;
-					font-size:18px;
-					border:solid 1px #0B243B;
-					background-color:none;
-					background:none;
-					position:relative;
-					margin:15px;
-					cursor:pointer;
-					}
-					
-			#atalho {
-				width:100%;
-				height:90px;
-				background-color:white;
-				float:left;
-					}
-					
-			at {
-				}
-			
-			#at li {
-				float:left; 
-				margin-left:200px;
-				position:relative;
-				top:;
-				left:;
-				text-align:center;
-				list-style:none;
-				position:relative;
-				left:80px;
-				}
-				
-			#at a {
-				text-decoration:none;
-				color:#0B243B;
-				}
-				
-			#principal {
-				width:1024px;
-				height:700px;
-				background-color:#dcdcdc;
-				margin:0px auto;
-			}
-			
-			{
-				box-sizing: border-box;
-			}
-
-			input[type=text], select, textarea {
-				width: 100%;
-				padding: 12px;
-				border: 1px solid #ccc;
-				border-radius: 4px;
-				resize: vertical;
-			}
-
-			label {
-				padding: 12px 12px 12px 0;
-				display: inline-block;
-			}
-
-			input[type=submit] {
-				background-color: #ffa500;
-				color: white;
-				padding: 12px 20px;
-				border: none;
-				border-radius: 4px;
-				cursor: pointer;
-				float: right;
-				position: relative; top: 25px;
-			}
-
-			input[type=submit]:hover {
-				background-color: #0B243B;
-			}
-
-			.container {
-				border-radius: 5px;
-				padding: 50px;
-				position: relative; top: 45px;
-			}
-			
-			.texto {
-				position: relative; left: 400px; 
-			}
-
-			.col-25 {
-				float: left;
-				width: 25%;
-				margin-top: 6px;
-			}
-
-			.col-75 {
-			float: right;
-			width: 75%;
-			margin-top: 6px;
-		}
-
-		/* Clear floats after the columns */
-		.row:after {
-			content: "";
-			display: table;
-			clear: both;
-		}
-		
-		.footer {
-					position: relative; 
-					top:250px;
-					left:0px;
-					background-color:#ffa500;
-					width:1764;
-					height:325px;
-					text-align:right;
-					font-family:tahoma;
-					font-size:30px;
-					padding-right:20px;
-								}
-						}
-		
-		</style>
+		<link rel="stylesheet" href="Style.css">	
 	</head>
 	
 	<body>
-	
 		
 		<div id="faixa">
-		<div id="logo">
-			<a href="D:\Projetos\EasyJobs\Home\Index.html"><img  src="D:\Projetos\EasyJobs\imgs\logo.png" width="180" align="left" ></a>
-		</div>
-		<a href="Home page.html"><input class="but" type= "button" name="" value="Sair"></a>
+			<div id="logo">
+				<a href="D:\EasyJobs\Home\Index.html"><img  src="D:\EasyJobs\imgs\logo.png" width="180">
+				</a>
+			</div>
+			<a href="D:\EasyJobs\Home\Index.html"><input class="but" type= "button" name="" value="Sair"></a>
 		</div>
 		
 		<div id="atalho">	
-				
 			<ul id="at">
-				<li><a target="_blanck" href="Painel de vagas.html">Vagas</a></li>
-				<li><a target="_blanck" href="Pesquisa de empresas.html">Empresas</a></li>
-				<li><a target="_blanck" href="ajuda.html">Ajuda</a></li>
+				<li><a href="D:\EasyJobs\Painel\Index.html" class="vagas">Vagas</a></li>
+				<li><a href="D:\EasyJobs\PesquisarEmpresa\Index.html" class="empresas">Empresas</a></li>
+				<li><a href="D:\EasyJobs\Ajuda\Index.html" class="ajuda">Ajuda</a></li>
 			</ul>
 		</div>
 		
@@ -194,10 +57,10 @@
 		</div>
 		<div class="row">
 		<div class="col-25">
-			<label for="subject">Deixe suas d�vidas</label>
+			<label for="subject">Deixe suas dúvidas</label>
 		</div>
 		<div class="col-75">
-			<textarea id="subject" name="subject" placeholder="Mensagem.." style="height:200px"></textarea>
+			<textarea id="subject" name="subject" placeholder="Mensagem..." style="height:200px"></textarea>
 		</div>
 		</div>
 		<div class="row">
@@ -208,6 +71,8 @@
 		</div>
 		
 		<footer class="footer"></footer>
+
+		<script src="Script.js"></script>
 	</body>	
 
 <html>
