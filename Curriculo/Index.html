@@ -1,7 +1,11 @@
 <html>
 	<head>
 			<title>Currículo</title>
-			<link rel="stylesheet" href="Style.css">			
+			<link rel="stylesheet" href="Style.css">	
+			<link rel="stylesheet" href="dadosPessoais.css">
+			<link rel="stylesheet" href="redesSociais.css">
+			
+			
 	</head>
 	<body>
 		<div  id= "faixa" border="1" >	
@@ -29,13 +33,16 @@
 		</div>
 		
 		<div class="nomeComp">
-			<input type="text" placeholder="Insira seu nome" name="nome" >
+			<input type="text" placeholder="Nome" name="nome" >
 		</div>
-		
 		<div class="sobreNome">
-			<input type="text" placeholder="Insira seu sobrenome" name="sobreNome">
+			<input type="text" placeholder="Sobrenome" name="sobreNome">
 		</div>
 
+
+		<div class="cpf">
+			<input type="text" placeholder="CPF" name="cpf" maxlength="14" disabled="disabled">
+		</div>
 		<div class="nacionalidade">
 			<input list="nacionalidades" placeholder="País">
 				<datalist id="nacionalidades">
@@ -44,10 +51,6 @@
 				</datalist>
 		</div>
 		
-		<div class="cpf">
-			<input type="text" placeholder="CPF" name="cpf" maxlength="14" disabled="disabled">
-		</div>	
-
 		<div class="resumo">
 			<h1>Resumo</h1>
 			<input type="text" placeholder="Resumo do seu currículo" name="resumo">
@@ -58,12 +61,10 @@
 			<input type="tel" name="dddTelefone" id="dddTelefone">
 			<input type="tel" name="numero" id="numero">
 		</div>
-
 		<div class="nascimento">
 			<h1>Data de nascimento</h1>
 			<input type="date" name="nascimento">
 		</div>
-
 
 		<div class="celular">
 			<h1>Celular</h1>
@@ -78,9 +79,8 @@
 				<input type="radio" name="sexo" id="feminino">Feminino
 			</li>	
 		</div>
-
 		<div class="estCivil">
-			<input list="estCivil" placeholder="Estado civil" name="estCivil">
+			<input list="estCivil" placeholder="Estado civil">
 				<datalist id="estadoCivil">
 					<option value="Casado">
 					<option value="Ceparado">
@@ -90,6 +90,53 @@
 				</datalist>
 		</div>
 
+		<div class="cep">
+			<h1>CEP</h1>
+			<input type="text" name="cep">
+		</div>
+		<div class="endereco">
+			<input type="text" placeholder="Endereço" name="endereco" disabled="disabled">	
+		</div>
+
+
+		<div class="numCasa">
+			<input type="text" placeholder="Número" name="numCasa">	
+		</div>
+		<div class="complemento">
+			<input type="text" placeholder="Complemento" name="complemento">	
+		</div>
+		<div class="bairro">
+			<input type="text" placeholder="Bairro" name="bairro" disabled="disabled">
+		</div>
+
+		<div class="cidade">
+			<input type="text" placeholder="Cidade" name="cidade" disabled="disabled">		
+		<div class="uf">
+			<input type="text" placeholder="UF" name="uf" disabled="disabled">
+
+		<div class="foto">
+			<h1>Foto</h1>
+			<img src="" alt="" srcset="" onclick="">	<input type="submit" value="Excluir" id="delFoto">
+		</div>
+
+		<div class="deficiencia">	
+			<h1>Deficiencia</h1>			
+			<input type="checkbox"name="deficiencia" id="deficiencia">
+			<li>
+				<input type="checkbox"name="auditiva" id="auditiva">
+				<input type="checkbox"name="fisica" id="fisica">
+				<input type="checkbox"name="visual" id="visual">
+				<input type="checkbox"name="intelectual" id="intelectual">
+				<input type="checkbox"name="psicosocial" id="psicosocial">
+				<input type="checkbox"name="reabilitados" id="reabilitados">
+			</li>
+		</div>
+
+		<div class="redesSociais">
+
+		</div>
+
+	</div>
 	<!--**********************************************************************-->
 		
 		
@@ -99,47 +146,10 @@
 
 			
 			
-	<!--	<div class="textbox">
-			<h3>Número</h3>
-			<input type="text" placeholder="" name="">		
-			
-		<input class="bnt" type="button" nome="" value="Adicionar" onClick="window.open('')">	
+	<!--			
 			
 		
-		<h2>Contato</h2>
-		
-		<div class="textbox">
-			<h3>E-mail</h3>
-			<input type="text" placeholder="" name="" value="">	
 			
-		<div class="textbox">
-			<h3>Telefone</h3>
-			<input type="text" placeholder="" name="" value="">	
-
-		<div class="textbox">
-			<h3>Celular</h3>
-			<input type="text" placeholder="" name="" value="">	
-			
-		<input class="bnt" type="button" nome="" value="Adicionar" onClick="window.open('')">	
-
-		
-		<h2>Objetivo Profisional</h2>
-
-		<div class="textbox">
-			<h3>Cargo/Profiss�o</h3>
-			<input type="text" placeholder="" name="" value="">
-
-		<div class="textbox">
-			<h3>Pretens�o Salarial</h3>
-			<input type="text" placeholder="" name="" value="">		
-
-		<div class="textbox">
-			<h3>Disponibilidade de Hor�rio</h3>
-			<input type="text" placeholder="" name="" value="">		
-
-		<div class="textbox">
-			<h3>Tipo de Contrato</h3>
-			<input type="text" placeholder="" name="" value="">	
 			
 		<div class="textbox">
 			<h3>�rea de Interesse</h3>
@@ -228,7 +238,6 @@
 			<input type="submit" value="Salvar">
 		</div> -->
 		
-		</div>
 				<footer class="rodape"></footer>
 
 				<script src="Script.js"></script>

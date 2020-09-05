@@ -4,7 +4,7 @@ body {
   margin:0px;
   background: #DCDCDC;
 		}
-/*--------------------------------------------------------------*/
+
 		#faixa {	
 			background-color: #FFA500;
 			width: 100%;
@@ -24,7 +24,6 @@ body {
 				cursor:pointer;
 					}	   
 				   	 
-/*--------------------------------------------------------------*/
 #atalho {
 	width:100%;
 	height:60px;
@@ -52,208 +51,8 @@ body {
 		    color: #6D6D6D;
 		    border-bottom:2px solid #0b243b;
 		}
-/*--------------------------------------------------------------*/
-		#principal { 
-			background-color : #FFFFFF  ;
-			margin : 0;
-			padding: 0;
-			border-color : #0b243b;
-			width:1200px;
-			height:4300px;
-			background-color:#FFFFFF;
-			position: absolute;
-			left: 5%;
-		}	
 
-		#curriculo {
-			list-style : none ;
-			padding:110px;
-			 }
-		
-		
-
-		.nome {
-			font-family : Tahoma ;
-			font-size :15px ; 
-			margin-left:210px;
-			margin-top: 100px;	
-					}
-
-.pessoais h2{
-	float: left;
-	position: absolute;
-	top: 110;
-	left:50 ;
-	
-}
-
-.nomeComp input{
-	float: left;
-	width:300;
-	height:30px;
-	position: absolute;
-	top:130;
-	left: 350;
-}
-
-.sobreNome input{
-	float: left;
-	width:300px;
-	height:30px;
-	position: absolute;
-	top:130;
-	left:700;
-}
-
-.nacionalidade input{
-	float: left;
-	width:300px;
-	height:30px;
-	position: absolute;
-	top:200;
-	left: 700;
-}
-
-.cpf input{
-	float: left;
-	width:300px;
-	height:30px;
-	position: absolute;
-	top:200;
-	left: 350;
-}
-
-.resumo h1{
-font-size: 15;
-position: absolute;
-top: 250;
-left: 350;
-}
-
-.resumo input{
-	float: left;
-	width:650px;
-	height:100px;
-	position: absolute;
-	top:280;
-	left: 350;
-	text-align: justify;
-}
-
-.telefone h1{
-	font-size: 15;
-	position: absolute;
-	top: 400;
-	left: 350;
-}
-.telefone input#dddTelefone{
-	float: left;
-	width:30;
-	height:30;
-	position: absolute;
-	top:430;
-	left: 350;
-}
-.telefone input#numero{
-	float: left;
-	width:260;
-	height:30;
-	position: absolute;
-	top:430;
-	left: 390;
-}
-
-.celular h1{
-	font-size: 15;
-	position: absolute;
-	top: 480;
-	left: 350;
-}
-.celular input#dddCelular{
-	float: left;
-	width:30;
-	height:30;
-	position: absolute;
-	top:510;
-	left:350;
-}
-.celular input#celular{
-	float: left;
-	width:260;
-	height:30;
-	position: absolute;
-	top:510;
-	left: 390;
-}
-
-.nascimento h1{
-	font-size: 15;
-	position: absolute;
-	top: 400;
-	left: 700;
-}
-.nascimento input{
-	float: left;
-	width:300;
-	height:30;
-	position: absolute;
-	top:430;
-	left: 700;
-}
-
-.sexo {
-	position: absolute;
-	top:580;
-	left: 350;
-}
-.sexo input{
-	width: 30;
-	height: 30;
-	}
-
-.estCivil input{
-	position: absolute;
-	top:580;
-	left: 700;
-	width: 300;
-	height: 30;
-}
-
-/*--------------------------------------------------------------*/
-
-
-			
-		
-	
-		
-		.bnt {
-					width:20px;
-					height:40px;
-					margin-bottom:10px;
-					margin:50px;
-					padding:1px 1;
-					font-size:15px;
-					cursor:pointer;
-					position: relative; top:15px; RIGHT:50px;
-					background-color:#0B243B;
-					color:#FFFFFF;
-					}
-		
-		
-					
-		.submit input {
-					width:250px;
-					height:25px;			
-					font-size:18px;
-					position: relative; top:60px;left:400px;
-					background-color:#0B243B;
-					color:#FFFFFF;
-					
-          }	
-
-					
-/*--------------------------------------------------------------*/
-   .rodape {
+.rodape {
     padding: 0;
     float: left;
     margin: 0;
