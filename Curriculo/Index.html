@@ -44,8 +44,8 @@
 				</datalist>
 		</div>
 		
-		<div class="estadoCivil">
-			<input type="text" placeholder="Estado Civíl" name="estCivil">
+		<div class="cpf">
+			<input type="text" placeholder="CPF" name="cpf" maxlength="14" disabled="disabled">
 		</div>	
 
 		<div class="resumo">
@@ -55,31 +55,51 @@
 			
 		<div class="telefone">
 			<h1>Telefone</h1>
-			<input type="tel" name="ddd" id="ddd">
+			<input type="tel" name="dddTelefone" id="dddTelefone">
 			<input type="tel" name="numero" id="numero">
 		</div>
 
+		<div class="nascimento">
+			<h1>Data de nascimento</h1>
+			<input type="date" name="nascimento">
+		</div>
 
+
+		<div class="celular">
+			<h1>Celular</h1>
+			<input type="tel" name="dddCelular" id="dddCelular">
+			<input type="tel" name="celular" id="celular">
+		</div>
+
+
+		<div class="sexo">
+			<li>
+				<input type="radio" name="sexo" id="masculino" checked="checked">Masculino
+				<input type="radio" name="sexo" id="feminino">Feminino
+			</li>	
+		</div>
+
+		<div class="estCivil">
+			<input list="estCivil" placeholder="Estado civil" name="estCivil">
+				<datalist id="estadoCivil">
+					<option value="Casado">
+					<option value="Ceparado">
+					<option value="Divorciado">
+					<option value="Solteiro">
+					<option value="Víudo">
+				</datalist>
+		</div>
 
 	<!--**********************************************************************-->
 		
-		<div class="textbox">
-			<h3>Estado</h3>
-			<input type="text" placeholder="" name="">
+		
+		
 
-		<div class="textbox">
-			<h3>Cidade</h3>
-			<input type="text" placeholder="" name="">
+		
 
-		<div class="textbox">
-			<h3>Rua/Avenida</h3>
-			<input type="text" placeholder="" name="">
-
-		<div class="textbox">
-			<h3>Bairro</h3>
-			<input type="text" placeholder="" name="">	
 			
-		<div class="textbox">
+			
+	<!--	<div class="textbox">
 			<h3>Número</h3>
 			<input type="text" placeholder="" name="">		
 			
@@ -206,7 +226,7 @@
 	
 		<div class="submit">
 			<input type="submit" value="Salvar">
-		</div>
+		</div> -->
 		
 		</div>
 				<footer class="rodape"></footer>
