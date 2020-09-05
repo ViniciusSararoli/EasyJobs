@@ -1,102 +1,87 @@
 <html>
 	<head>
-		<title>Dados do Currículo</title>
-	
-			<link rel="stylesheet" href="Style.css">
-								
+			<title>Currículo</title>
+			<link rel="stylesheet" href="Style.css">			
 	</head>
-
 	<body>
 		<div  id= "faixa" border="1" >	
-						<div id="logo">
+			<div id="logo">
 				<a href="D\EasyJobs\Home\Index.html"><img  src="D:\EasyJobs\imgs\logo.png" width="180" align="left" ></a>
 			</div>
-			<a href="D\EasyJobs\Home\Index.html"><input class="but" type= "button" name="sair" value="Sair"></a>	
-			</div>
+				<a href="D\EasyJobs\Home\Index.html"><input class="sair" type= "button" name="sair" value="Sair"></a>	
+		</div>
 
 		<div id="atalho">	
-				
-				<ul id="at">
-					<li><a  href="D\EasyJobs\Painel\Index.html">Vagas</a></li>
-					<li><a  href="D\EasyJobs\PesquisarEmpresa\Index.html">Empresas</a></li>
-					<li><a  href="D\EasyJobs\Ajuda\Index.html">Ajuda</a></li>
-				</ul>
-			</div>
-		
-
+			<ul id="atalhos">
+				<li><a  href="D\EasyJobs\Painel\Index.html">Vagas</a></li>
+				<li><a  href="D\EasyJobs\PesquisarEmpresa\Index.html">Empresas</a></li>
+				<li><a  href="D\EasyJobs\Ajuda\Index.html">Ajuda</a></li>
+			</ul>
 		</div>
 
-		<div id="faixa1" >
-			
-		</div>
-	
-<div id="class">
-				
-				
-		<div id="principal">
-				
+		<div id="curriculo">		
+			<div id="principal">
 				<div class="nome" id="nome">
-					
 					<div class="Dados Currículo">
 
-					
-		<h1>Dados Currículo</h1>
-		
-		
-		<h2>Dados Pessoais</h2>
-		
+		<div class="pessoais">
+			<h2>Dados Pessoais</h2>
 		</div>
 		
-		<div class="textbox">
-			<h3>Nome</h3> 
-			<input type="text" placeholder="" name="nome" >
-			
+		<div class="nomeComp">
+			<input type="text" placeholder="Insira seu nome" name="nome" >
 		</div>
 		
-		<div class="textbox">
-			<h3>Idade</h3>
-			<input type="text" placeholder="" name="idade">
-			
-		<div class="textbox">
-			<h3>Nacionalidade</h3>
-			<input type="text" placeholder="" name="nascimento">
+		<div class="sobreNome">
+			<input type="text" placeholder="Insira seu sobrenome" name="sobreNome">
+		</div>
 
-		<div class="textbox">
-			<h3>Estado Civíl</h3>
-			<input type="text" placeholder="" name="estCivil">	
-
-		<input class="bnt" type="button" nome="" value="Adicionar" onClick="window.open('')">
+		<div class="nacionalidade">
+			<input list="nacionalidades" placeholder="País">
+				<datalist id="nacionalidades">
+  				<option value="Brasil">
+  				<option value="Outros">
+				</datalist>
+		</div>
 		
-		
-		<h2>Endereço</h2>
-			
-		<div class="textbox">
-			<h3>País</h3>
-			<input type="text" placeholder="" name="pais">
-			
-		<div class="textbox">
-			<h3>CEP</h3>
-			<input type="text" placeholder="" name="" value="">
+		<div class="estadoCivil">
+			<input type="text" placeholder="Estado Civíl" name="estCivil">
+		</div>	
 
+		<div class="resumo">
+			<h1>Resumo</h1>
+			<input type="text" placeholder="Resumo do seu currículo" name="resumo">
+		</div>
+			
+		<div class="telefone">
+			<h1>Telefone</h1>
+			<input type="tel" name="ddd" id="ddd">
+			<input type="tel" name="numero" id="numero">
+		</div>
+
+
+
+	<!--**********************************************************************-->
+		
 		<div class="textbox">
 			<h3>Estado</h3>
-			<input type="text" placeholder="" name="" value="">
+			<input type="text" placeholder="" name="">
 
 		<div class="textbox">
 			<h3>Cidade</h3>
-			<input type="text" placeholder="" name="" value="">
+			<input type="text" placeholder="" name="">
 
 		<div class="textbox">
 			<h3>Rua/Avenida</h3>
-			<input type="text" placeholder="" name="" value="">
+			<input type="text" placeholder="" name="">
 
 		<div class="textbox">
 			<h3>Bairro</h3>
-			<input type="text" placeholder="" name="" value="">	
+			<input type="text" placeholder="" name="">	
 			
 		<div class="textbox">
 			<h3>Número</h3>
-			<input type="text" placeholder="" name="" value="">		
+			<input type="text" placeholder="" name="">		
 			
 		<input class="bnt" type="button" nome="" value="Adicionar" onClick="window.open('')">	
 			

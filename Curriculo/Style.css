@@ -1,53 +1,20 @@
-			body { background:white;
-					background-size: 100%;
-          margin:0px;
-          background: #DCDCDC;
-
-			
+body { 
+	background:white;
+	background-size: 100%;
+  margin:0px;
+  background: #DCDCDC;
+		}
+/*--------------------------------------------------------------*/
+		#faixa {	
+			background-color: #FFA500;
+			width: 100%;
+			height : 60px;
+			 text-align : right ;
+			 font-family : Tahoma ;
+			font-size :90px ;
+			padding-right :0px;
 			}
-		
-			
-
-			.nome {font-family : Tahoma ;
-					font-size :15px ; 
-					margin-left:210px;
-					margin-top: 100px;
-					
-			      }
-			
-				
-		#faixa {	background-color: #FFA500;
-					width: 100%;
-					height : 60px;
- 					text-align : right ;
- 					font-family : Tahoma ;
-					font-size :90px ;
-					padding-right :0px;
-					
-					
-			}
-			
-					
-		#faixa1 {	
-			font-family : Tahoma ;
-			font-size : 1000px;
-			color : black ;
-			text-decoration : none ;
-			width : 180px;
-			height : 10px;	
-			float : left ;
-			margin-left: 100px;
-			margin-top: -124px;
-			}
- 
-			#faixa2{  
-        font-family : Tahoma ;
-				font-size :50px ;
-				text-align: center;
-				padding-left :250px;
-				margin-top: 00px;		 
-				   }	   
-			#faixa input {
+			.sair {
 				color:#0B243B;
 				font-size:18px;
 				border:solid 1px #0B243B;
@@ -56,57 +23,154 @@
 				margin:15px;
 				cursor:pointer;
 					}	   
-				   	   
-			#atalho {
-			width:100%;
-			height:60px;
-			background-color:hsl(0, 0%, 100%);
-			float:left;
-					}
-					
-			
-			
-			#at li {
-				float:left; 
-				margin-left:250px;
-				text-align:center;
-				list-style:none;
-				left:5px;
-				font-family:tharoma;
-				
-				}
-				
-			#at a {
-				text-decoration:none;
-				color:#0B243B;				
-				}
-							   
+				   	 
+/*--------------------------------------------------------------*/
+#atalho {
+	width:100%;
+	height:60px;
+	background-color:hsl(0, 0%, 100%);
+	float:left;
+		}
 
-
+		#atalhos li {
+			float:left; 
+			margin-left:250px;
+			text-align:center;
+			list-style:none;
+			left:5px;
+			font-family:tharoma;
 			
-			#principal { 
+			}
 			
-				background-color : #FFFFFF  ;
-        margin : 0;
-        padding: 0;
-				border-color : #0b243b;
-				width:1200px;
-				height:4300px;
-        background-color:#FFFFFF;
-        position: absolute;
-        left: 5%;
-			}			
+		#atalhos a {
+			text-decoration:none;
+			color:#0B243B;				
+			}
 
-			#class{list-style : none ;
-					padding:110px;
-
-			 }
-		
-		#id ul li a:hover {
+			#id ul li a:hover {
 		    background-color:#D6D6D6;
 		    color: #6D6D6D;
 		    border-bottom:2px solid #0b243b;
 		}
+/*--------------------------------------------------------------*/
+		#principal { 
+			background-color : #FFFFFF  ;
+			margin : 0;
+			padding: 0;
+			border-color : #0b243b;
+			width:1200px;
+			height:4300px;
+			background-color:#FFFFFF;
+			position: absolute;
+			left: 5%;
+		}	
+
+		#curriculo {
+			list-style : none ;
+			padding:110px;
+			 }
+		
+		
+
+		.nome {
+			font-family : Tahoma ;
+			font-size :15px ; 
+			margin-left:210px;
+			margin-top: 100px;	
+					}
+
+.pessoais h2{
+	float: left;
+	position: absolute;
+	top: 110;
+	left:50 ;
+	
+}
+
+.nomeComp input{
+	float: left;
+	width:300;
+	height:30px;
+	position: absolute;
+	top:130;
+	left: 350;
+}
+
+.sobreNome input{
+	float: left;
+	width:300px;
+	height:30px;
+	position: absolute;
+	top:130;
+	left:700;
+}
+
+.nacionalidade input{
+	float: left;
+	width:300px;
+	height:30px;
+	position: absolute;
+	top:200;
+	left: 700;
+}
+
+.estadoCivil input{
+	float: left;
+	width:300px;
+	height:30px;
+	position: absolute;
+	top:200;
+	left: 350;
+}
+
+.resumo h1{
+font-size: 15;
+position: absolute;
+top: 250;
+left: 350;
+}
+
+.resumo input{
+	float: left;
+	width:650px;
+	height:100px;
+	position: absolute;
+	top:280;
+	left: 350;
+	text-align: justify;
+}
+
+.telefone h1{
+	font-size: 15;
+	position: absolute;
+	top: 400;
+	left: 350;
+}
+
+.telefone input#ddd{
+	float: left;
+	width:30;
+	height:30;
+	position: absolute;
+	top:430;
+	left: 350;
+}
+
+.telefone input#numero{
+	float: left;
+	width:260;
+	height:30;
+	position: absolute;
+	top:430;
+	left: 390;
+}
+
+/*--------------------------------------------------------------*/
+
+
+			
+		
+	
 		
 		.bnt {
 					width:20px;
@@ -121,10 +185,7 @@
 					color:#FFFFFF;
 					}
 		
-		.textbox input {
-					width:450px;
-					height:25px;
-					}
+		
 					
 		.submit input {
 					width:250px;
@@ -135,7 +196,9 @@
 					color:#FFFFFF;
 					
           }	
-    
+
+					
+/*--------------------------------------------------------------*/
    .rodape {
     padding: 0;
     float: left;
