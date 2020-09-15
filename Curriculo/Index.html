@@ -2,8 +2,9 @@
 	<head>
 			<title>Currículo</title>
 			<link rel="stylesheet" href="Style.css">	
-			<link rel="stylesheet" href="dadosPessoais.css">
-			<link rel="stylesheet" href="redesSociais.css">
+			<link rel="stylesheet" href="dados.css">
+			<link rel="stylesheet" href="redes.css">
+			<link rel="stylesheet" href="formacao.css">
 			
 			
 	</head>
@@ -162,110 +163,43 @@
 			</div>
 		</div>
 
+		<div class="formacao">
+				<h1>Formação Acadêmica</h1>
+			<div class="formacao">
+				<button id="incluir">Incluir Formação Acadêmica</button>
+					<div id="dadosFormacao">
+							<input type="text" name="instituicao" id="instituicao">
+						<div id="pais">
+							<input list="pais">
+								<datalist>
+									<option value="Brasil">
+									<option value="Outro">
+								</datalist>
+						</div>
+						<div class="estados">
+							<input list="estados">
+							<datalist>
+								<option value="São Paulo">
+								<option value="Rio de Janeiro">
+								<option value="Minas Gerais">
+								<option value="Rio Grande do Sul">
+							</datalist>
+						</div>
+						<div class="recomendacao">
+							<h2>Recomendaria este centro educacional?</h2>
+							<input type="radio" name="recomenda" id="sim">
+							<h3 id="sim">sim</h3>
+							<input type="radio" name="recomenda" id="nao">
+							<h3 id="nao">Não</h3>
+						</div>
+						
+
+					</div>
+			</div>
+		</div>
 	</div>
-	<!--**********************************************************************-->
-		
-		
-		
+		<footer class="rodape"></footer>
 
-		
-
-			
-			
-	<!--			
-			
-		
-			
-			
-		<div class="textbox">
-			<h3>�rea de Interesse</h3>
-			<input type="text" placeholder="" name="" value="">	
-			
-		<input class="bnt" type="button" nome="" value="Adicionar" onClick="window.open('')">	
-
-
-		<h2>Forma��es</h2>
-		
-		<div class="textbox">
-			<h3>Ensino Superior</h3>
-			<input type="text" placeholder="" name="" value="">
-		
-		<div class="textbox">
-			<h3>Ensino M�dio</h3>
-			<input type="text" placeholder="" name="" value="">
-			
-		<div class="textbox">
-			<h3>Ensino T�cnico</h3>
-			<input type="text" placeholder="" name="" value="">	
-
-		<input class="bnt" type="button" nome="" value="Adicionar" onClick="window.open('')">	
-		
-		
-		<h2>Experi�ncia Profissional</h2>
-
-		<div class="textbox">
-			<h3>Empresa</h3>
-			<input type="text" placeholder="" name="" value="">
-			
-		<div class="textbox">
-			<h3>Valor Mensal</h3>
-			<input type="text" placeholder="" name="" value="">	
-
-		<div class="textbox">
-			<h3>Benef�cios</h3>
-			<input type="text" placeholder="" name="" value="">
-			
-		<div class="textbox">
-			<h3>In�cio</h3>
-			<input type="text" placeholder="" name="" value="">	
-			
-		<div class="textbox">
-			<h3>T�rmino</h3>
-			<input type="text" placeholder="" name="" value="">	
-
-		<div class="textbox">
-			<h3>Descri��o</h3>
-			<input type="text" placeholder="" name="" value="">		
-			
-		<input class="bnt" type="button" nome="" value="Adicionar" onClick="window.open('')">	
-		
-		
-		<h2>Idiomas</h2>
-		
-		<div class="textbox">
-			<h3>Idioma</h3>
-			<input type="text" placeholder="" name="" value="">		
-			
-			<div class="textbox">
-			<h3>N�vel</h3>
-			<input type="text" placeholder="" name="" value="">		
-			
-			<h3>Idioma</h3>
-			<input type="text" placeholder="" name="" value="">		
-			
-			<div class="textbox">
-			<h3>N�vel</h3>
-			<input type="text" placeholder="" name="" value="">		
-		
-			<input class="bnt" type="button" name="" value="Adicionar" onClick="window.open('')">
-			
-			
-			<h2>Qualificações</h2>
-			
-			<input type="text" placeholder="" name="" value="">
-			
-		
-			<h2>Informações Complementares</h2>
-			
-			<input type="text" placeholder="" name="" value="">	
-	
-	
-		<div class="submit">
-			<input type="submit" value="Salvar">
-		</div> -->
-		
-				<footer class="rodape"></footer>
-
-				<script src="Script.js"></script>
+		<script src="Script.js"></script>
 	</body>
 </html>

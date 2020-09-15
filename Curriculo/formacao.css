@@ -1,0 +1,20 @@
+.formacao{
+  background-color : #FFFFFF  ;
+  margin : 0;
+  padding: 0;
+  border-color : #0b243b;
+  width:1200;
+  height:600;
+  background-color:#FFFFFF;
+  position: absolute;
+  top: 1854;
+  left: 0;  
+}
+
+.formacao h1 {
+  float:left;
+  position:absolute;
+  top:110;
+  left:50;
+  font-size: 20;
+}
