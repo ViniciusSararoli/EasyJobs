@@ -30,7 +30,7 @@ float: left;
 position: absolute;
 top: 110;
 left:50 ;
-
+font-size: 20;
 }
 
 .nomeComp input{
@@ -287,29 +287,43 @@ font-size: 15;
 position: absolute;
 top: 950;
 left: 550;
+display: none;
 }
 .deficiencia li input#fisica{
 position: absolute;
 top: 990;
 left: 550;
+display: none;
 }
 .deficiencia li input#visual{
 position: absolute;
 top: 1030;
 left: 550;
+display: none;
 }
 .deficiencia li input#intelectual{
 position: absolute;
 top: 1070;
 left: 550;
+display: none;
 }
 .deficiencia li input#psicosocial{
 position: absolute;
 top: 1110;
 left: 550;
+display: none;
 }
 .deficiencia li input#reabilitados{
 position: absolute;
 top: 1150;
 left: 550;
+display: none;
+}
+
+.deficiencia h2{
+  position: relative;
+  top: 850;
+  left: 520;
+  font-size: 20;
+  display: none;
 }

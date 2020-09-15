@@ -10,3 +10,78 @@
   top: 1252;
   left: 0;  
 }
+
+.redesSociais h1 {
+  float:left;
+  position:absolute;
+  top:110;
+  left:50;
+  font-size: 20;
+}
+
+.linkedin h2{
+  font-size: 15;
+  position: absolute;
+  top: 110;
+  left:350 ;
+}
+.linkedin input{
+  position: absolute;
+  top: 140;
+  left:350;
+  width: 650;
+}
+
+.facebook h2{
+  font-size: 15;
+  position: absolute;
+  top: 190;
+  left:350 ;
+}
+.facebook input{
+  position: absolute;
+  top: 220;
+  left:350;
+  width: 650;
+}
+
+.twitter h2{
+  font-size: 15;
+  position: absolute;
+  top: 270;
+  left:350 ;
+}
+.twitter input{
+  position: absolute;
+  top: 300;
+  left:350;
+  width: 650;
+}
+
+.youtube h2{
+  font-size: 15;
+  position: absolute;
+  top: 350;
+  left:350 ;
+}
+.youtube input{
+  position: absolute;
+  top: 380;
+  left:350;
+  width: 650;
+}
+
+.github h2{
+  font-size: 15;
+  position: absolute;
+  top: 430;
+  left:350 ;
+}
+.github input{
+  position: absolute;
+  top: 460;
+  left:350;
+  width: 650;
+}
+
+
