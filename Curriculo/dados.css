@@ -267,63 +267,67 @@ background: #ffa500;
 border: solid #0B243B;
 }
 
+
 .deficiencia input#deficiencia{
 width: 30;
 height: 30;
 position: absolute;
-top: 940;
+top: 950;
 left: 500;
 }
 .deficiencia h1{
 width: 30;
 height: 30;
 position: absolute;
-top: 940;
+top: 950;
 left: 550;
 font-size: 15;
 }
-
-.deficiencia li input#auditiva{
-position: absolute;
-top: 950;
-left: 550;
-display: none;
-}
-.deficiencia li input#fisica{
-position: absolute;
-top: 990;
-left: 550;
-display: none;
-}
-.deficiencia li input#visual{
-position: absolute;
-top: 1030;
-left: 550;
-display: none;
-}
-.deficiencia li input#intelectual{
-position: absolute;
-top: 1070;
-left: 550;
-display: none;
-}
-.deficiencia li input#psicosocial{
-position: absolute;
-top: 1110;
-left: 550;
-display: none;
-}
-.deficiencia li input#reabilitados{
-position: absolute;
-top: 1150;
-left: 550;
-display: none;
+.defici{
+  position: absolute;
+  top: 950;
+  left: 550;
+  width: 470;
+  height: 280;
+  background:none;
+  display:none ;
 }
 
-.deficiencia h2{
+.defici input#auditiva{
+
+position: absolute;
+top: 20;
+left: 0;
+}
+.defici li input#fisica{
+position: absolute;
+top: 60;
+left: 0;
+}
+.defici li input#visual{
+position: absolute;
+top: 100;
+left: 0;
+}
+.defici li input#intelectual{
+position: absolute;
+top: 140;
+left: 0
+}
+.defici li input#psicosocial{
+position: absolute;
+top: 180;
+left: 0;
+}
+.defici li input#reabilitados{
+position: absolute;
+top: 220;
+left: 0;
+}
+
+.defici h2{
   position: relative;
-  top: 850;
-  left: 520;
+  top: 5;
+  left: 180;
   font-size: 20;
-  display: none;
 }
