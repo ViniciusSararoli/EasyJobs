@@ -5,6 +5,7 @@
 			<link rel="stylesheet" href="dados.css">
 			<link rel="stylesheet" href="redes.css">
 			<link rel="stylesheet" href="formacao.css">
+			<link rel="stylesheet" href="incluirFormacao.css">
 			
 			
 	</head>
@@ -165,20 +166,21 @@
 <!----------------------------------------------------------------------------->
 		<div class="formacao">
 				<h1>Formação Acadêmica</h1>
-			<div class="formacao">
-				<button id="incluir">Incluir Formação Acadêmica</button>
-				
-					<div id="dadosFormacao">
+				<button id="incluir">Incluir Formação Acadêmica +</button>
+					
+				<div class="dadosFormacao">
+						<div class="instituicao">
 							<input type="text" name="instituicao" id="instituicao">
-						<div id="pais">
-							<input list="pais">
+						</div>
+						<div class="pais">
+							<input list="pais" placeholder="Pais">
 								<datalist>
 									<option value="Brasil">
 									<option value="Outro">
 								</datalist>
 						</div>
 						<div class="estados">
-							<input list="estados">
+							<input list="estados" placeholder="Estado">
 							<datalist>
 								<option value="São Paulo">
 								<option value="Rio de Janeiro">
@@ -187,21 +189,42 @@
 							</datalist>
 						</div>
 						<div class="recomendacao">
-							<h2>Recomendaria este centro educacional?</h2>
-							<input type="radio" name="recomenda" id="sim">
-							<h3 id="sim">sim</h3>
-							<input type="radio" name="recomenda" id="nao">
-							<h3 id="nao">Não</h3>
+								<h2>Recomendaria este centro educacional?</h2>
+							<list>
+								<input type="radio" name="recomenda" id="sim" checked="checked">
+								<h3>Sim</h3>
+								<input type="radio" name="recomenda" id="nao">
+								<h3>Não</h3>
+							</list>
 						</div>
-<!----------------------------------------------------------------------------->
-
-<!----------------------------------------------------------------------------->
-
-<!----------------------------------------------------------------------------->
-
-<!----------------------------------------------------------------------------->
-					</div>
-			</div>
+						<div class="nvlCurso">
+							<input list="nivel" name="" id="Nivel" placeholder="Nivel">
+							<datalist>
+								<option value="">
+								<option value="">
+								<option value="">
+							</datalist>
+							<input type="text" name="curso" id="curso">
+						</div>
+						<div class="statusCurso">
+							<li>
+								<input type="radio" name="status" id="Concluido">
+								<input type="radio" name="status" id="Cursando">
+								<input type="radio" name="status" id="Trancado">
+							</li>
+						</div>
+						<div class="anoCurso">
+							<h2 id="inicio">Inicio</h2>
+							<input type="date" name="inicio" id="inicio">
+							<h2 id="termino">Termino</h2>
+							<input type="date" name="termino" id="termino">
+						</div>
+						<div class="botoes">
+							<button type="submit" id="guardar">Guardar</button>
+							<button type="submit" id="cancelar">Cancelar</button>
+						</div>
+				</div>
+	<!----------------------------------------------------------------------------->			
 		</div>
 	</div>
 		<footer class="rodape"></footer>

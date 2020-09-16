@@ -18,3 +18,30 @@
   left:50;
   font-size: 20;
 }
+
+.formacao button#incluir {
+  float:left;
+  position:absolute;
+  top:125;
+  left:350;
+  font-size: 20;
+  border: none;
+  background: none;
+  color: #131b66;
+  border-radius:0px;
+
+}
+.formacao button#incluir:hover {
+color: #ffa500;
+border-radius:0px;
+
+}
+.formacao button#incluir:active{
+background: #214fcc;
+color: #FFFFFF;
+width: 650;
+text-align: left;
+border:none;
+border-radius:0px;
+}
+
