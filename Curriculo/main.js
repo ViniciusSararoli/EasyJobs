@@ -9,9 +9,13 @@ function mostrar(id) {
 };
 
 
-var fecharFormacao = document.querySelector('button#cancelar');
-
-fecharFormacao.onclick = function () {
+function cancelar(id) {
   fecharFormacao = document.getElementById('dadosFormacao').style.display = 'none';
+};
+
+/*************************************** */
+ var
+function incluir(id) {
+  
 }
 
