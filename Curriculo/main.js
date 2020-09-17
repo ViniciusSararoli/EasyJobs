@@ -14,7 +14,7 @@ function cancelar(id) {
 };
 
 /*************************************** */
- var
+
 function incluir(id) {
   
 }
