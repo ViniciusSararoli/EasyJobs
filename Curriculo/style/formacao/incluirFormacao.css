@@ -1,0 +1,129 @@
+.dadosFormacao {
+  background: #FFFFFF;
+  position:absolute;
+  top:150;
+  left:350;
+  width:650;
+  height:470;
+  border-radius:2px;
+  box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+  display:none;
+  z-index:1; 
+}
+
+.dadosFormacao input#instituicao {
+  position:absolute;
+  top:20;
+  left:25;
+  width: 600;
+}
+
+.pais input {
+  position:absolute;
+  top:70;
+  left:25;
+  width: 280;
+}
+
+.estados input {
+  position:absolute;
+  top:70;
+  left:345;
+  width: 280;
+}
+
+.recomendacao h2 {
+  position: absolute;
+  top: 130;
+  left: 25;
+  font-size: 15;
+}
+
+.recomendacao h3 {
+  float: left;
+  position: relative;
+  top: 160;
+  left: 25;
+  font-size: 15;
+}
+.recomendacao input {
+  float: left;
+  position: relative;
+  top: 160;
+  left: 25;
+  width: 30;
+  height: 30;
+}
+
+.nvlCurso input#nivel{
+  position: absolute;
+  top: 220;
+  left: 25;
+  width: 280;
+}
+.nvlCurso input#curso {
+  position: absolute;
+  top: 220;
+  left: 345;
+  width: 280;
+}
+
+
+.anoCurso h2#inicio{
+  position: absolute;
+  top: 270;
+  left: 25;
+  width: 280;
+  font-size: 15;
+}
+.anoCurso input#inicio{
+  position: absolute;
+  top: 300;
+  left: 25;
+  width: 280;
+}
+.anoCurso h2#termino{
+  position: absolute;
+  top: 270;
+  left: 345;
+  width: 280;
+  font-size: 15;
+}
+.anoCurso input#termino{
+  position: absolute;
+  top: 300;
+  left: 345;
+  width: 280;
+}
+
+.botoes button#guardar {
+  position: absolute;
+  top: 400;
+  left: 25;
+  width: 100;
+  height: 30;
+  border: none;
+  border-color: #000000;
+  background: #0B243B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.botoes button#guardar:hover{
+  background: #ffa500;
+  border: solid #0B243B;
+}
+.botoes button#cancelar {
+  position: absolute;
+  top: 400;
+  left: 125;
+  width: 100;
+  height: 30;
+  border: none;
+  background: none;
+  color: #0B243B;
+  font-weight: bold;
+  font-size: small;
+}
+.botoes button#cancelar:hover {
+color: #ffa500;
+}

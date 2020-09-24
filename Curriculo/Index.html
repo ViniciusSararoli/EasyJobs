@@ -2,13 +2,18 @@
 	<head>
 			<title>Currículo</title>
 
-			<link rel="stylesheet" href="Style.css">	
-			<link rel="stylesheet" href="dados.css">
-			<link rel="stylesheet" href="redes.css">
-			<link rel="stylesheet" href="formacao.css">
-			<link rel="stylesheet" href="incluirFormacao.css">
+			<link rel="stylesheet" href="style/style.css">	
+			<link rel="stylesheet" href="style/dadosPessoais/dados.css">
+			<link rel="stylesheet" href="style/redesSociais/redes.css">
+			<link rel="stylesheet" href="style/formacao/formacao.css">
+			<link rel="stylesheet" href="style/formacao/incluirFormacao.css">
+			<link rel="stylesheet" href="style/experiencia/experiencia.css">
+			<link rel="stylesheet" href="style/experiencia/dadosExperiencia.css">
 	</head>
 	<body>
+	
+			
+		
 		<div  id= "faixa" border="1" >	
 			<div id="logo">
 				<a href="D\EasyJobs\Home\Index.html"><img  src="D:\EasyJobs\imgs\logo.png" width="180" align="left" ></a>
@@ -23,6 +28,8 @@
 				<li><a  href="D\EasyJobs\Ajuda\Index.html">Ajuda</a></li>
 			</ul>
 		</div>
+<!--------------------------------------------------------------------------->
+		<footer class="rodape"></footer>
 
 		<div id="curriculo">		
 			<div id="principal">
@@ -210,13 +217,6 @@
 							</datalist>
 							<input type="text" name="curso" id="curso" placeholder="Nome do curso">
 						</div>
-						<div class="statusCurso">
-							<li>
-								<input type="radio" name="status" id="Concluido">
-								<input type="radio" name="status" id="Cursando">
-								<input type="radio" name="status" id="Trancado">
-							</li>
-						</div>
 						<div class="anoCurso">
 							<h2 id="inicio">Inicio</h2>
 							<input type="date" name="inicio" id="inicio">
@@ -228,11 +228,95 @@
 							<button type="submit" id="cancelar" onclick="cancelar('dadosFormacao')">Cancelar</button>
 						</div>
 				</div>
-	<!----------------------------------------------------------------------------->			
-		</div>
-	</div>
-		<footer class="rodape"></footer>
+	<!----------------------------------------------------------------------------->
+		<div class="experiencia">
+			<h1>Experiência Profissional</h1>
+			<button id="incluir" name="incluir" onclick="mostrar('dadosExperiencia')">Incluir nova Experiência Profissional +</button>
 
-		<script src="main.js"></script>
+			<div class="dadosExperiencia" id="dadosExperiencia">
+				<div class="nomeEmpresa">
+					<input type="text" placeholder="Nome da Empresa">		
+				</div>
+				<div class="recomendacao">
+					<h2>Você recomendaría à um amigo esta empresa para trabalhar?</h2>
+					<list>
+						<input type="radio" name="recomenda" id="sim" checked="checked">
+						<h3>Sim</h3>
+						<input type="radio" name="recomenda" id="nao">
+						<h3>Não</h3>
+					</list>
+				</div>
+				<div class="cargo">
+					<input id="cargo" type="text" placeholder="Cargo" name="">
+					<input id="salario" type="text" placeholder="Salário" name="">
+				</div>
+				<div class="nivel">
+					<input list="nivel" placeholder="Nível Hierárquico">
+					<datalist id="nivel">
+						<option value="Estágio">
+						<option value="Auxiliar">
+						<option value="Assistete">
+						<option value="Treinee">
+						<option value="Analista">
+						<option value="Encarregado">
+						<option value="Supervisor">
+						<option value="Consultor">
+						<option value="Cordenador">
+						<option value="Gerente">
+						<option value="Diretor">
+					</datalist>
+				</div>
+				
+				<div class="area">
+					<input list="areaAt" name="" id="area" placeholder="Área">
+					<datalist id="areaAt">
+						<option value="Administrativa">
+						<option value="Recursos Humanos">
+						<option value="Técnologia">
+						<option value="Saúde">
+						<option value="Educação">
+					</datalist>
+				</div>
+				<div class="especializacao">
+					<input list="especializacao" name="especial" id="especial" placeholder="Especialização">
+					<datalist id="especializacao">
+						<option value="Outros">
+					</datalist>
+				</div>
+
+
+
+
+				<div class="anoEmpresa">
+					<h2 id="inicio">Inicio</h2>
+					<input type="date" name="inicio" id="inicio">
+					<h2 id="termino">Conclusão</h2>
+					<input type="date" name="termino" id="termino">
+				</div>
+
+
+
+
+
+
+
+
+
+				
+				
+				<div class="botoesEx">
+					<button type="submit" id="guardar">Guardar</button>
+					<button type="submit" id="cancelar" onclick="cancelar('dadosFormacao')">Cancelar</button>
+				</div>
+		</div>
+
+		</div>
+	<!--------------------------------------------------------------------------->	
+		</div>
+		
+	</div>
+			
+		<script src="script/main.js"></script>
 	</body>
+	
 </html>
