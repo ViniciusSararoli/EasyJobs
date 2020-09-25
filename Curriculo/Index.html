@@ -2,13 +2,15 @@
 	<head>
 			<title>Currículo</title>
 
-			<link rel="stylesheet" href="style/style.css">	
+			<link rel="stylesheet" href="style/body/style.css">	
 			<link rel="stylesheet" href="style/dadosPessoais/dados.css">
 			<link rel="stylesheet" href="style/redesSociais/redes.css">
 			<link rel="stylesheet" href="style/formacao/formacao.css">
 			<link rel="stylesheet" href="style/formacao/incluirFormacao.css">
 			<link rel="stylesheet" href="style/experiencia/experiencia.css">
 			<link rel="stylesheet" href="style/experiencia/dadosExperiencia.css">
+			<link rel="stylesheet" href="style/idioma/idiomas.css">
+			<link rel="stylesheet" href="style/idioma/addidiomas.css">
 	</head>
 	<body>
 	
@@ -283,35 +285,53 @@
 						<option value="Outros">
 					</datalist>
 				</div>
-
-
-
-
 				<div class="anoEmpresa">
 					<h2 id="inicio">Inicio</h2>
 					<input type="date" name="inicio" id="inicio">
 					<h2 id="termino">Conclusão</h2>
 					<input type="date" name="termino" id="termino">
 				</div>
-
-
-
-
-
-
-
-
-
-				
-				
 				<div class="botoesEx">
 					<button type="submit" id="guardar">Guardar</button>
-					<button type="submit" id="cancelar" onclick="cancelar('dadosFormacao')">Cancelar</button>
+				<button type="submit" id="cancelar" onclick="cancelar('dadosExperiencia')">Cancelar</button>
 				</div>
 		</div>
 
 		</div>
-	<!--------------------------------------------------------------------------->	
+	<!--------------------------------------------------------------------------->
+		<div class="idiomas">
+			<div class="linguas">
+				<h1>Idiomas</h1>
+				<button id="incluir" name="incluir" onclick="mostrar('addIdiomas')">Incluir Idioma +</button>
+
+				<div class="addIdiomas" id="addIdiomas">
+					<div class="linguage" id="linguage">
+						<input list="qualLenguage" id="Lenguage">
+						<datalist id="qualLenguage"placeholder="Lingua">
+							<option value="Alemão"></option>
+							<option value="Chines"></option>
+							<option value="Espanhol"></option>
+							<option value="Ingles"></option>
+							<option value="Italiano"></option>
+							<option value="Japones"></option>
+							<option value="Português"></option>	
+						</datalist>
+						<input list="nvlLenguage" id="lenguageNvl">
+						<datalist id="nvlLenguage">
+							<option value="Básico"></option>	
+							<option value="Intermediario"></option>	
+							<option value="Avançado"></option>	
+						</datalist>
+					</div>
+					<div class="botoesId">
+						<button type="submit" id="guardar">Guardar</button>
+						<button type="submit" id="cancelar" onclick="cancelar('addIdiomas')">Cancelar</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--------------------------------------------------------------------------->
 		</div>
 		
 	</div>

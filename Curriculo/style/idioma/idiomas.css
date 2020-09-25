@@ -1,0 +1,52 @@
+.idiomas{
+  background-color : #FFFFFF  ;
+  margin : 0;
+  padding: 0;
+  border-color : #0b243b;
+  width:1200;
+  height:400;
+  background-color:#FFFFFF;
+  position: absolute;
+  top: 1206;
+  left: 0;  
+}
+
+.idiomas h1 {
+  float:left;
+  position:absolute;
+  top:110;
+  left:50;
+  font-size: 20;
+}
+
+.idiomas button#incluir {
+  float:left;
+  position:absolute;
+  top:125;
+  left:350;
+  font-size: 20;
+  border: none;
+  background: none;
+  color: #131b66;
+  border-radius:0px;
+  width: 650;
+  text-align: left;
+
+}
+.idiomas button#incluir:hover {
+color: #ffa500;
+border-radius:0px;
+width: 650;
+text-align: left;
+border:none;
+border-radius:0px;
+}
+.idiomas button#incluir:active{
+background: #0b243b;
+color: #FFFFFF;
+width: 650;
+text-align: left;
+border:none;
+border-radius:0px;
+}
+

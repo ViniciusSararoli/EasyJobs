@@ -10,7 +10,7 @@ function mostrar(id) {
 
 
 function cancelar(id) {
-  fecharFormacao = document.getElementById('dadosFormacao').style.display = 'none';
+  fecharFormacao = document.getElementById(id).style.display = 'none';
 };
 
 /*************************************** */

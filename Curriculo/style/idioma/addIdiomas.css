@@ -1,0 +1,58 @@
+.addIdiomas {
+  background: #FFFFFF;
+  position:absolute;
+  top:150;
+  left:350;
+  width:650;
+  height:120;
+  border-radius:2px;
+  box-shadow:rgba(0,0,0,0.5) 10px 10px 10px;
+  display:none;
+  z-index:1; 
+}
+
+.linguage input#Lenguage{
+  position:absolute;
+  top:30;
+  left:25;
+  width: 250;
+}
+.linguage input#lenguageNvl {
+  position:absolute;
+  top:30;
+  left:310;
+  width: 250;
+}
+
+
+.botoesId button#guardar {
+  position: absolute;
+  top: 70;
+  left: 25;
+  width: 100;
+  height: 30;
+  border: none;
+  border-color: #000000;
+  background: #0B243B;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.botoesId button#guardar:hover{
+  background: #ffa500;
+  border: solid #0B243B;
+}
+.botoesId button#cancelar {
+  position: absolute;
+  top: 70;
+  left: 125;
+  width: 100;
+  height: 30;
+  border: none;
+  background: none;
+  color: #0B243B;
+  font-weight: bold;
+  font-size: small;
+}
+.botoesId button#cancelar:hover {
+color: #ffa500;
+}
