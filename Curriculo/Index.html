@@ -11,6 +11,7 @@
 			<link rel="stylesheet" href="style/experiencia/dadosExperiencia.css">
 			<link rel="stylesheet" href="style/idioma/idiomas.css">
 			<link rel="stylesheet" href="style/idioma/addidiomas.css">
+			<link rel="stylesheet" href="style/informatica/informatica.css">
 	</head>
 	<body>
 	
@@ -328,14 +329,38 @@
 						<button type="submit" id="cancelar" onclick="cancelar('addIdiomas')">Cancelar</button>
 					</div>
 				</div>
-
 			</div>
 		</div>
-		<!--------------------------------------------------------------------------->
+		<!--------------------------------------------------------------------------->	
+		<div class="conhecimentoInfo">
+			<h1>Conhecimentos de informática</h1>
+			<input type="checkbox"name="conhecimentoBD" id="conhecimentoBD" onclick="mostrar('bancoDados')" />
+			<div class="bancoDados" id="bancoDados">
+				<li>
+					<input type="checkbox"name="todos" id="todos">
+					<label for="todos">Todos</label><br>
+					<input type="checkbox"name="Cache" id="Cache">
+					<label for="Cache">Caché</label><br>
+					<input type="checkbox"name="DB2" id="DB2">
+					<label for="DB2">DB2</label><br>
+					<input type="checkbox"name="Firebird" id="Firebird">
+					<label for="Firebird">Firebird</label><br>
+					<input type="checkbox"name="Informix" id="Informix">
+					<label for="Informix">Informix</label><br>
+					<input type="checkbox"name="Interbase" id="Interbase">
+					<label for="Interbase">Interbase</label><br>
+					<input type="checkbox"name="Oracle" id="Oracle">
+					<label for="Oracle">Oracle</label><br>
+					<input type="checkbox"name="PostgreSQL" id="PostgreSQL">
+					<label for="PostgreSQL">PostgreSQL</label><br>
+					<input type="checkbox"name="SQLServer" id="SQLServer">
+					<label for="SQLServer">SQL Server</label><br>
+					<input type="checkbox"name="Sybase" id="Sybase">
+					<label for="Sybase">Sybase</label>
+				</li>
 		</div>
-		
+		<!--------------------------------------------------------------------------->
 	</div>
-			
 		<script src="javascript/main.js"></script>
 	</body>
 	
